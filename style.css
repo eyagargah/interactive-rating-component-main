@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: hsl(216, 12%, 8%);
+    font-family: 'Overpass', sans-serif;
+}
+main {
+    background-color: hsl(228, 11%, 8%);
+}
+
+.card {
+    margin: 150px auto;
+    height: auto;
+    width: 320px;
+    border-radius: 20px;
+    padding: 18px;
+    background-color: hsl(215, 20%, 16%);
+
+}
+
+.rating-card .image-container img {
+    background-color: hsl(212, 24%, 20%);
+    border-radius: 50%;
+    border: none;
+    padding: 15px;
+}
+
+.card h2 {
+    color: hsl(0, 0%, 100%);
+    margin: 15px auto;
+}
+
+.card p {
+    color: hsl(220, 7%, 55%);
+    font-size: 14px;
+    font-weight: 400;
+    line-height:22px;
+}
+
+.rating-btn {
+    background-color: hsl(210, 19%, 18%);
+    border-radius: 50%;
+    border: none;
+    width: 15%;
+    height: auto;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 20px 5px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.rating-btn:hover{
+    background-color:hsl(25, 97%, 53%) ;
+    transition-delay: 0.3;
+}
+
+.rating-btn:active{
+    background-color:hsl(217, 12%, 63%) ;
+}
+
+.submit-btn {
+    background-color: hsl(25, 97%, 53%);
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 400;
+    color:hsl(0, 0%, 100%);
+    width: 100%;
+    margin: 10px auto 0 ;
+    border: none;
+    cursor: pointer;
+    letter-spacing: 2px;
+    color: white;
+}
+
+
+.active {
+    background-color:hsl(217, 12%, 63%) ;
+}
+
+/*--------Thank you card---------*/
+
+ .thanks-state .image-container {
+     display: flex;
+     justify-content: center;
+     margin: 20px auto;
+ }
+
+ .rating-value{
+     display: flex;
+     justify-content: center;
+ }
+ .rating-value p{
+     color: hsl(25, 97%, 53%);
+     background-color: hsl(210, 19%, 18%);
+     border-radius: 50px;
+     height: 40px;
+     width: 200px;
+     line-height: 42px;
+     text-align: center;
+ }
+
+ .thanks-state h2 {
+     display: flex;
+     justify-content: center;
+     margin: 30px auto 20px auto;
+     font-weight: 400;
+ }
+ 
+ .thank-you p {
+    text-align: center;
+    color: hsl(220, 7%, 55%);
+}
+
+.hide {
+    display: none;
+}
