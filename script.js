@@ -26,7 +26,6 @@ function rateBtnClick(event) {
       btn.classList.remove('active');
   });
   
-
   if (event.target.classList.contains('rating-btn')){
       event.target.classList.add('active');
   } else {
