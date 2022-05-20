@@ -4,6 +4,7 @@ var rateCard = document.querySelector(".rating-card")
 var submitBtn = document.querySelector(".submit-btn");
 var score = document.querySelector("#score")
 const ratingBtns = document.querySelectorAll('.rating-btn');
+
 let scores = 1
 
 //EventListeners
